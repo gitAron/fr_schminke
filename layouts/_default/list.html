@@ -15,7 +15,6 @@
           <div class="post-media post-thumb">
             {{ if isset .Params "image" -}}
             <a href="{{ .RelPermalink }}">
-              <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
             </a>
             {{- end }}
           </div>

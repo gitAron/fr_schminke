@@ -3,6 +3,7 @@
 baseURL = "http://examplesite.org"
 title = "Airspace | Creative Agency Hugo Template"
 #theme = "airspace-hugo"
+
 # Number of posts per page in list view
 paginate = "4"
 # Post excerpt length
@@ -99,7 +100,7 @@ preloader = "" # use .png , .svg or .gif image
 
 ################################# Cookies #####################################
 [params.cookies]
-enable = true
+enable = false 
 expire_days = 2
 
 
@@ -191,10 +192,10 @@ copyright = "Copyright &copy; 2021 [Themefisher](https://themefisher.com). All R
 
 # Main menu
 # NOTE: Leaf entries linking to content should be defined in the content file's respective front matter.
-[[languages.en.menu.main]]
-hasChildren = true
-name = "More"
-weight = 5
+# [[languages.en.menu.main]]
+# hasChildren = true
+# name = "More"
+# weight = 5
 
 # Footer menu
 [[languages.en.menu.footer]]
