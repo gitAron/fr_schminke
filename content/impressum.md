@@ -1,6 +1,5 @@
 ---
 title: "Impressum"
-bg_image: "images/post.jpg"
 layout: "impressum"
 draft: false
 
@@ -8,7 +7,9 @@ draft: false
 
 impressum:
   enable : true
-  title : " "
+  bg_image: "images/backgrounds/tapete.jpg"
+  bg_overlay: true
+  title : "Impressum"
   content : "Fräulein Schminke - Anke Brinckmann (ViSdP)<br/>
 Kinderschminken, Make-up & Bodypainting<br/>
 Bütersworthstraße 19 / 30161 Hannover<br/>
