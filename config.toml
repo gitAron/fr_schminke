@@ -1,6 +1,6 @@
 ################################# Basic configuration #########################
 # Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-baseURL = "http://examplesite.org"
+baseURL = "https://flamboyant-shockley-6189f2.netlify.app/"
 title = "Airspace | Creative Agency Hugo Template"
 #theme = "airspace-hugo"
 
