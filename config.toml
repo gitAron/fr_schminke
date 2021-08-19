@@ -1,7 +1,7 @@
 ################################# Basic configuration #########################
 # Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 baseURL = "https://flamboyant-shockley-6189f2.netlify.app/"
-title = "Airspace | Creative Agency Hugo Template"
+title = "Fräulein Schminke"
 #theme = "airspace-hugo"
 
 # Number of posts per page in list view
