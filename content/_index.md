@@ -16,6 +16,19 @@ banner:
     label: "Zur Bildergallerie"
     link: "project"
 
+############################# Tafeln #################################
+tafeln:
+  enable: true
+  title: "Ihre individuelle Tafel"
+  description: "Ich mag Tafeln"
+  content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id."
+  image: "images/tafel4.jp2"
+  button:
+    enable: true
+    label: "Jetzt entdecken"
+    link: "tafeln"
+
+
 ############################# About #################################
 about:
   enable: true
