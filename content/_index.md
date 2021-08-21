@@ -4,6 +4,19 @@ menu:
     name: "Home"
     weight: 1
 
+############################### Landing ##############################
+landing:
+  enable: true
+  bg_image: "images/backgrounds/tapete.jp2"
+  bg_overlay: true
+  title: "Hallo"
+  content: "Willkommen auf meiner Seite"
+  image:  images/fraeulein-schminke_schriftzug.jp2
+  button:
+    enable: false
+    label: "Zur Bildergallerie"
+    link: "landing"
+
 ############################### Banner ##############################
 banner:
   enable: true

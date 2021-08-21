@@ -2,6 +2,40 @@
 <head>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
+<!-- landing -->
+{{ with .Params.landing }}
+{{ if .enable }}
+<section class="landing slider {{ if .bg_overlay }}overly{{ end }}" style="background-image: url('{{ .bg_image | relURL }}');">
+  <div class="container">
+
+<div class="row">
+     <div class="col-md-12">
+        <div class="block">
+          <img src="{{ .image | relURL }}" class="img-center" alt="Img">
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          {{ with .title }}<h1>{{ . | markdownify }}</h1>{{ end }}
+          {{ with .content }}{{ . | $.Page.RenderString (dict "display" "block") }}{{ end }}
+          {{ with .button }}
+          {{ if .enable }}
+          <a href="{{ .link | relLangURL }}" class="btn btn-main animated fadeInUp">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /landing -->
+
+
 <!-- banner -->
 {{ with .Params.banner }}
 {{ if .enable }}
