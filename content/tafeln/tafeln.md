@@ -12,14 +12,15 @@ menu:
 
 ################################## Tafeln #####################################
 
-tafeln:
-  enable : true
-  image : "images/schminke.jpeg"
-  title : "Was ich tue"
-  content : "Ich male sehr gern ihre Tafeln an. </br>
-  Ob für ein Restaurant, eine Cafe oder eine Bar."
+<> tafeln:
+<>   enable : true
+<>   image : "images/schminke.jpeg"
+<>   title : "Was ich tue"
+<>   content : "Ich male sehr gern ihre Tafeln an. </br>
+<>   Ob für ein Restaurant, eine Cafe oder eine Bar."
 
 ---
+sup
 {{< load-photoswipe >}}
 {{< gallery dir="/images/tafeln" />}}
 
