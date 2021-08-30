@@ -40,8 +40,8 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "About Page"
-        name: "about"
+      - label: "Contact Page"
+        name: "contact"
         file: "content/contact.md"
         fields:
           - {label: Title, name: title, widget: string}
@@ -62,3 +62,17 @@ collections:
                 widget: list
               - {label: Name, name: name, widget: string}
               - {label: Weight, name: weight, widget: string}
+           - label: Contact
+             name: contact
+             widget: list
+             fields:
+              - {label: Enable, name: enable, widget: string}
+              - {label: Image, name: image, widget: image}
+              - {label: Title, name: title, widget: string}
+              - {label: Content, name: content, widget: markdown}
+
+  enable : true
+  image : "images/schminke.jpeg"
+  title : "Kontakt:"
+  content : "Fräulein Schminke - Anke Brinckmann (ViSdP)<br/>
+
