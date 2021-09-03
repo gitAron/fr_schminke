@@ -9,6 +9,7 @@ draft: false
 ---
 
 ### Welcome to Airspace!
+latein ist eine äußerst schöne sprache
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia ullam sint quas pariatur ipsam nemo
 repellendus suscipit quod accusantium numquam tempora assumenda sequi, velit voluptatem soluta voluptatibus
