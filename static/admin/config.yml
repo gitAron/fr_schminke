@@ -49,7 +49,7 @@ collections:
           - { label: Description, name: description, widget: markdown }
           - { label: Bg_Image, name: bg_image, widget: image }
           - { label: Body, name: body, widget: markdown }
-         - label: Blockzwo 
+          - label: Blockzwo 
             name: blockzwo
             widget: list
             fields:
