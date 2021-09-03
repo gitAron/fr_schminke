@@ -43,30 +43,30 @@ collections:
       - label: "Contact Page"
         name: "contact"
         file: "content/contact.md"
-        fields:
-          - { label: Title, name: title, widget: string }
-          - { label: Description, name: description, widget: markdown }
-          - { label: Bg_Image, name: bg_image, widget: image }
-          - { label: Layout, name: layout, widget: string }
-          - { label: Draft, name: draft, widget: string }
-          - { label: Image, name: image, widget: image }
+        # fields:
+        #   - { label: Title, name: title, widget: string }
+        #   - { label: Description, name: description, widget: markdown }
+        #   - { label: Bg_Image, name: bg_image, widget: image }
+        #   - { label: Layout, name: layout, widget: string }
+        #   - { label: Draft, name: draft, widget: string }
+        #   - { label: Image, name: image, widget: image }
 
 
-          - label: Menu 
-            name: menu 
-            widget: list
-            fields:
-              - label: Main
-                name: main
-                widget: list
-              -  {label: Name, name: name, widget: string }
-              -  {label: Weight, name: weight, widget: string }
-           - label: Contact
-             name: contact
-             widget: list
-             fields:
-              -  {label: Enable, name: enable, widget: string }
-              -  {label: Image, name: image, widget: image }
-              -  {label: Title, name: title, widget: string }
-              -  {label: Content, name: content, widget: markdown }
+        #   - label: Menu 
+        #     name: menu 
+        #     widget: list
+        #     fields:
+        #       - label: Main
+        #         name: main
+        #         widget: list
+        #       -  {label: Name, name: name, widget: string }
+        #       -  {label: Weight, name: weight, widget: string }
+        #    - label: Contact
+        #      name: contact
+        #      widget: list
+        #      fields:
+        #       -  {label: Enable, name: enable, widget: string }
+        #       -  {label: Image, name: image, widget: image }
+        #       -  {label: Title, name: title, widget: string }
+        #       -  {label: Content, name: content, widget: markdown }
 
