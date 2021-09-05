@@ -44,7 +44,7 @@ collections:
     files:
       - label: "FAQ"
         name: "faq"
-        file: "content/faq.md"
+        file: "content/faq"
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Description, name: description, widget: markdown }
