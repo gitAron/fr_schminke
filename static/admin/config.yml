@@ -61,17 +61,16 @@ collections:
             widget: object
             fields:
               - { label: Title, name: title, widget: string }
-
-  - label: "Tafeln"
-      name: "tafeln"
-      file: "content/tafeln/tafeln.md"
-      format: "frontmatter"
-      fields:
-        - { label: Title, name: title, widget: string }
-        - { label: Description, name: description, widget: markdown }
-        - { label: Bg_Image, name: bg_image, widget: image }
-        - { label: Image, name: image, widget: image }
-        - { label: Body, name: body, widget: markdown }
+      - label: "Tafeln"
+        name: "tafeln"
+        file: "content/tafeln/tafeln.md"
+        format: "frontmatter"
+        fields:
+          - { label: Title, name: title, widget: string }
+          - { label: Description, name: description, widget: markdown }
+          - { label: Bg_Image, name: bg_image, widget: image }
+          - { label: Image, name: image, widget: image }
+          - { label: Body, name: body, widget: markdown }
 
 
       #   - { label: Layout, name: layout, widget: string }
