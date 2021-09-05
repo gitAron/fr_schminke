@@ -54,7 +54,7 @@ collections:
             name: blockzwo
             widget: list
             fields:
-              - { label: Titel, name: titel, widget: string }
+              - { label: Title, name: title, widget: string }
 
         #   - { label: Layout, name: layout, widget: string }
         #   - { label: Draft, name: draft, widget: string }
