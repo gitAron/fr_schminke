@@ -1,5 +1,5 @@
 ---
-title: titel ha
+title: Tafeln
 description: des
 bg_image: /images/uploads/cloud_boat_wp.jpg
 gallery:
