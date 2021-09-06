@@ -9,6 +9,9 @@ gallery:
   - imgTitle: hut
     imgSrc: /images/tafeln/hut.png
     imgDesc: huut
+  - imgSrc: /images/tafeln/hut.png
+    imgTitle: huthut
+    imgDesc: h
 menu:
   main:
     name: Tafeln
