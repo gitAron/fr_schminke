@@ -76,8 +76,8 @@ collections:
           - label: "Gallery"
             name: "gallery"
             widget: "list"
-            media_folder: static/images/tafeln
-            public_folder: /images/tafeln
+            media_folder: images/tafeln
+            public_folder: tafeln
             optional: true
             fields:
               - { label: "Title", name: "imgTitle", widget: "string" }
