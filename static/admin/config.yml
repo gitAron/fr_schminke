@@ -65,6 +65,8 @@ collections:
         name: "tafeln"
         file: "content/tafeln.md"
         format: "frontmatter"
+        media_folder: ../static/images/tafeln
+        public_folder: static/images/tafeln
 
         fields:
           - { label: Title, name: title, widget: string }
@@ -74,8 +76,6 @@ collections:
           - label: "Gallery"
             name: "gallery"
             widget: "list"
-            media_folder: ../static/images/tafeln
-            public_folder: static/images/tafeln
             optional: true
             fields:
               - { label: "Title", name: "imgTitle", widget: "string" }
