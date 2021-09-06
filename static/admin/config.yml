@@ -63,9 +63,9 @@ collections:
               - { label: Title, name: title, widget: string }
       - label: "Tafeln"
         name: "tafeln"
-        file: "content/tafeln/tafeln.md"
+        file: "content/tafeln.md"
         format: "frontmatter"
-        media_folder: static/images/tafeln
+        media_folder: ../static/images/tafeln
         public_folder: /images/tafeln
 
         fields:
