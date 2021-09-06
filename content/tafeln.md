@@ -12,6 +12,9 @@ gallery:
   - imgTitle: berg
     imgSrc: tafeln/berg.jpg
     imgDesc: berg
+  - imgTitle: tsst
+    imgSrc: /images/uploads/tsst.png
+    imgDesc: tsst
 menu:
   main:
     name: Tafeln
