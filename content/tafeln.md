@@ -3,18 +3,9 @@ title: Tafeln
 description: des
 bg_image: /images/uploads/cloud_boat_wp.jpg
 gallery:
-  - imgTitle: ne tafel
-    imgSrc: /images/tafeln/call-to-action-bg.jpg
-    imgDesc: calltoaction
-  - imgTitle: hut
-    imgSrc: /images/tafeln/hut.png
-    imgDesc: huut
   - imgSrc: /images/tafeln/hut.png
-    imgTitle: huthut
-    imgDesc: h
-  - imgTitle: tok
-    imgSrc: /images/tafeln/tokio.jpg
-    imgDesc: toki
+    imgTitle: hut1
+    imgDesc: hood
 menu:
   main:
     name: Tafeln
