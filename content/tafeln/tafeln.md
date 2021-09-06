@@ -2,6 +2,10 @@
 title: titel ha
 description: des
 bg_image: /images/uploads/cloud_boat_wp.jpg
+gallery:
+  - imgTitle: ne tafel
+    imgSrc: /images/tafeln/call-to-action-bg.jpg
+    imgDesc: calltoaction
 menu:
   main:
     name: Tafeln
