@@ -65,11 +65,25 @@ collections:
         name: "tafeln"
         file: "content/tafeln/tafeln.md"
         format: "frontmatter"
+        media_folder: static/images/tafeln
+        public_folder: /images/tafeln
+
         fields:
           - { label: Title, name: title, widget: string }
           - { label: Description, name: description, widget: markdown }
           - { label: Bg_Image, name: bg_image, widget: image }
           - { label: Body, name: body, widget: markdown }
+          - label: "Gallery"
+            name: "gallery"
+            widget: "list"
+            media_folder: static/images/tafeln
+            public_folder: /images/tafeln
+            optional: true
+            fields:
+              - { label: "Title", name: "imgTitle", widget: "string" }
+              - { label: "Gallery Image", name: "imgSrc", widget: "image" }
+              - { label: "Description", name: "imgDesc", widget: "string" }
+
           - label: Menu
             name: menu
             widget: object
