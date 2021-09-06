@@ -24,6 +24,6 @@ boooody
 
 
 {{< load-photoswipe >}}
-{{< gallery dir="/../content/images/tafeln" />}}
+{{< gallery dir="../content/images/tafeln" />}}
 
 
