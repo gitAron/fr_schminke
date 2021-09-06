@@ -9,6 +9,9 @@ gallery:
   - imgTitle: aah
     imgSrc: /images/tafeln/hut2.png
     imgDesc: ah
+  - imgTitle: berg
+    imgSrc: tafeln/berg.jpg
+    imgDesc: berg
 menu:
   main:
     name: Tafeln
