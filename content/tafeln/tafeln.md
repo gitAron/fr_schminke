@@ -8,3 +8,9 @@ menu:
     weight: 5
 ---
 boooody
+
+
+{{< load-photoswipe >}}
+{{< gallery dir="/images/tafeln" />}}
+
+
