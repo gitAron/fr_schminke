@@ -6,6 +6,9 @@ gallery:
   - imgTitle: ne tafel
     imgSrc: /images/tafeln/call-to-action-bg.jpg
     imgDesc: calltoaction
+  - imgTitle: hut
+    imgSrc: /images/tafeln/hut.png
+    imgDesc: huut
 menu:
   main:
     name: Tafeln
