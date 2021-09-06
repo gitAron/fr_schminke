@@ -12,6 +12,9 @@ gallery:
   - imgSrc: /images/tafeln/hut.png
     imgTitle: huthut
     imgDesc: h
+  - imgTitle: tokiooo
+    imgSrc: /images/tafeln/tokio.jpg
+    imgDesc: tok
 menu:
   main:
     name: Tafeln
