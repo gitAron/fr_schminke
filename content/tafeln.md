@@ -15,6 +15,9 @@ gallery:
   - imgTitle: tsst
     imgSrc: /images/uploads/tsst.png
     imgDesc: tsst
+  - imgTitle: tssst
+    imgSrc: static/images/tafeln/tsst.png
+    imgDesc: tssst
 menu:
   main:
     name: Tafeln
